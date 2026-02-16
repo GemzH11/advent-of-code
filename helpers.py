@@ -56,7 +56,7 @@ def load_input_list(filename: str, strip_empty: bool=True) -> list[str]:
 
     return lines    
 
-def load_input__list_int(filename: str, strip_empty: bool=True) -> list[int]:
+def load_input_list_int(filename: str, strip_empty: bool=True) -> list[int]:
     """
     Load the input file for Advent of Code challenges and convert lines to integers.
 
